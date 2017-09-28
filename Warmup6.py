@@ -4,10 +4,10 @@
 
 
 for i in range(1,11):
-    print('Mississippi')
+    print(i,'Mississippi')
 
 i = 1
 while i <=10:
-    print('Mississippi')
+    print(i,'Mississippi')
     i = i+1
     
