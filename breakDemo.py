@@ -5,3 +5,6 @@
 #copy cat
 while True:
     input('Type something: ')
+    print(text)
+    if text == 'something':
+        break
