@@ -13,8 +13,8 @@ blackOutline = LineStyle(1,black) #pixels, color
 
 
 dot = CircleAsset(20,blackOutline,red) #Radius, outline, fill.
-
-for i in range(10):
-    Sprite(dot,(50 + 100*i ,50))
+for j in range(50): #prints the row 50 times
+    for i in range(50): #prints one row of dots
+        Sprite(dot,(50 + 50*i ,50 + 50*j))
 App().run()
 
